@@ -1,0 +1,39 @@
+<!-- 03.anchor-image.html -->
+<!-- html:5[tab] -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 
+  상대경로를 사용한 img태그
+    "./images/<이미지명>" 을 보여주기
+  절대경로를 사용한 img태그
+    인터넷에 있는 임의의 이미지 하나
+  
+  상대경로를 사용한 a태그
+    "./01.first.html" 로 이동
+  절대경로를 사용한 a태그
+    인터넷에 있는 임의의 URL 하나
+   -->
+  <!-- img[tab] -->
+  <h2>상대경로 img</h2>
+  <img src="./images/pby5.jpg" alt="">
+  <img src="images/pby5.jpg" alt="">
+  
+  <h2>절대경로 img</h2>
+  <img src="https://i.pinimg.com/originals/d3/da/76/d3da76dc4254fe19bd19aac5d6c0853c.jpg" alt="">
+  
+  <h2>상대경로 anchor</h2>
+  <a href="./01.first.html" target="_blank">1번 문서로 이동</a>
+  <a href="01.first.html">1번 문서로 이동</a>
+  
+  <h2>절대경로 anchor</h2>
+  <a href="https://www.google.co.kr/search?q=%EB%B0%95%EB%B3%B4%EC%98%81&num=30&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwifyNaypZ7dAhUHLnwKHWWbDVUQ_AUICigB&biw=1440&bih=803&dpr=2#imgrc=LDVjVkyd1kfUuM:">검색결과</a>
+  
+</body>
+</html>
